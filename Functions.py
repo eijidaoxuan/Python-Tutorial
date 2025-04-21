@@ -48,7 +48,11 @@ git merge ...       #Merging name branch (...) to branch now
 git merge --merged  #Mention the branch name that has merged
 git merge -d ...    #Delete branch (...)
 git clone ...       #...=https://github...    moving file from remote(github) to git
-git remote          #Or git remote -v   for see remote name and source
+git remote          #Or git remote -v   for see remote name(origin) and source
 git push            #Pushing remote to main in graph
 git config --global user.email "..."  #Changing email to "..."
 git config --global user.name "..."   #Changing username to "..."
+#To make remote(github) from git folder, create repo without README.md:
+git remote add ... ...  #Remote name(origin) and source (https://github...)
+git push -u origin main #To make terminal can push remote
+git branch -M main
