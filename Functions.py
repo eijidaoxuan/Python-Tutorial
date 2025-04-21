@@ -56,3 +56,4 @@ git config --global user.name "..."   #Changing username to "..."
 git remote add ... ...  #Remote name(origin) and source (https://github...)
 git push -u origin main #To make terminal can push remote(origin)
 git branch -M main
+git fetch           #If remote and git changed in the same time, git fetch checking remote, then can (git pull) again
