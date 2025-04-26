@@ -1,3 +1,4 @@
+library = pipy
 #Terminal Phyton
 code ... .py        #make file
 python ... .py      #run file
